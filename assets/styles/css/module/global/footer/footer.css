@@ -1,0 +1,37 @@
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-points {
+  display: flex;
+  column-gap: 50px;
+  row-gap: 30px;
+}
+
+.footer-point {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  max-width: 350px;
+}
+
+.footer-bottom {
+  padding-top: 15px;
+  border-top: 1px solid #8b8b8b;
+
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+.footer-cookie {
+  max-width: 600px;
+}

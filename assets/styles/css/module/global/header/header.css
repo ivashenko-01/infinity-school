@@ -1,0 +1,40 @@
+.header {
+  background-color: #000e2b;
+  color: #fff;
+
+  padding: 16px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  border-bottom: 1px solid #63728c;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-button {
+  background-color: #0b5ee8;
+  padding: 8px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

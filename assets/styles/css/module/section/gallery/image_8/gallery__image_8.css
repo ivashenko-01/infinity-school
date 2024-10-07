@@ -1,0 +1,15 @@
+.section-gallery-v8 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-gallery-v8__wrapper {
+}
+
+.section-gallery-v8__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 50px;
+  row-gap: 50px;
+}

@@ -1,0 +1,80 @@
+.section-elements_8__v2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* background-color: #0f285a; */
+  position: relative;
+}
+
+.section-elements_8__v2__wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.section-elements_8__v2__bg {
+  background-color: #0f285a;
+}
+
+.section-elements_8__v2__header {
+  text-align: center;
+  z-index: 100;
+
+  position: relative;
+}
+
+.section-elements_8__v2__items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 75px;
+
+  justify-content: space-between;
+}
+
+.section-elements_8__v2__item {
+  max-width: 300px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  position: relative;
+
+  z-index: 1;
+}
+
+.section-elements_8__v2::before {
+  content: url("../../../../../images/wave.svg");
+  position: absolute;
+  top: -5px;
+}
+.section-elements_8__v2::after {
+  content: url("../../../../../images/wave_180deg.svg");
+  position: absolute;
+  bottom: -5px;
+}
+
+.section-elements_8__v2__item::after {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-color: #0e2046;
+
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+
+  position: absolute;
+  top: -15%;
+  left: -10%;
+
+  z-index: -1;
+
+  display: flex;
+}
